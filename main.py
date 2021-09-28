@@ -6,12 +6,12 @@ def greaterThan(x, y):
     else:
         return False 
 
-    def lessThan(x, y):
-        if x < y:
-            return True
+def lessThan(x, y):
+    if x < y:
+        return True
 
-        else:
-            return False 
+    else:
+        return False 
 
 def  equalTo(x, y):
     if x == y:
